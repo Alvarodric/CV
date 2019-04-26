@@ -1,0 +1,224 @@
+
+body{
+
+font-family: 'Montserrat';
+
+}
+
+h1 ,h2, h3{
+  font-family: 'Montserrat', sans-serif;
+
+}
+h2{
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+
+}
+
+p{
+
+  color: #8f8f8f;
+  font-family: 'Montserrat-Bold';
+
+
+}
+
+/* HEADINGS */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+
+
+
+.container-fluid{
+
+padding: 3% 15% 4%;
+
+}
+
+#features{
+
+padding: 7% 15%;
+position: relative;
+background-color: #fff;
+z-index: 1;
+
+}
+
+.feature-box{
+
+text-align: center;
+padding: 5%;
+
+}
+
+.icon{
+  color: #de9e36;
+  margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+
+  color: #ff4c68;
+}
+
+#title {
+background-color: #37323e;
+color: #bfbdc1;
+
+}
+
+
+
+.navbar{
+
+padding: 0 0 4.5rem;
+
+}
+.navbar-brand{
+
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+
+padding: 0 18px;
+
+}
+
+.nav-link{
+
+font-size: 1.2rem;
+font-weight: normal;
+
+}
+/* DOWNLOAD BUTTON */
+.download-button{
+
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+
+.title-image{
+
+  width: 99%;
+  transform: rotate(35deg);
+  position: absolute;
+  left: 5%;
+
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials{
+
+text-align: center;
+background-color: #6d6a75;
+color: #bfbdc1;
+}
+
+.testimonial-image{
+width: 10%;
+border-radius: 50%;
+margin: 60px 20px 0px;
+
+}
+
+#press{
+  text-align: center;
+  background-color: #6d6a75;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+
+  width: 7%;
+  margin: 0px 40px 50px;
+}
+
+.poznan-logo{
+
+  width: 17%;
+}
+
+.carousel-item{
+padding: 7% 15%;
+
+}
+/* PRICING SECTION */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column{
+
+  padding: 3% 2%;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+
+text-align: center;
+
+}
+
+#cta{
+
+  background-color: #6d6a75;
+  color: #bfbdc1;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-header{
+
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.btn-cta{
+
+margin-bottom: 0;
+}
+
+#footer{
+
+  padding: 7% 15%;
+  background-color: #37323e;
+  color: #bfbdc1;
+  text-align: center;
+}
+
+.social-icon{
+
+  margin: 10px;
+  background-color: #37323e;
+}
+
+@media (max-width: 1028px){
+
+.title-image{
+
+position: static;
+transform: rotate(0);
+}
+
+}
