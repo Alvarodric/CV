@@ -1,2 +1,2 @@
 # CV
-CV and Reminder App
+This is the creation of a webpage part of the course Web Development of Angela Yu
